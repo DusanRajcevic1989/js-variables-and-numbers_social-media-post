@@ -10,6 +10,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
+const title = "Social Media Post";
+const text = "Welcome to this exercise!";
+let likes = 0;
+const creator = "D.Rajcevic";
+const isReported = true;
 
 // --^-- write your code here --^--
 
@@ -18,5 +23,14 @@ console.clear();
 */
 
 // --v-- write your code here --v--
+console.log(title);
+console.log(text);
 
+console.log(likes);
+likes += 1;
+console.log(likes);
+console.log(creator);
+if (isReported) {
+  console.log(isReported);
+}
 // --^-- write your code here --^--
